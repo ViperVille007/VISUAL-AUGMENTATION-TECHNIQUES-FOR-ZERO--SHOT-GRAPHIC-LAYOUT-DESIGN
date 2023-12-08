@@ -1,7 +1,5 @@
 import os
 import pandas as pd
-import base64
-import requests
 import os
 from openai import OpenAI
 import base64
@@ -152,7 +150,6 @@ Take a deep breath. Think step by step and answer.'''.format(text=text)
                     }
                 ],
                 max_tokens=1000,
-                temperature=0.45,
             )
         else:
             img_names = os.listdir(path_ref)
@@ -208,7 +205,6 @@ Take a deep breath. Think step by step and answer.
                     }
                 ],
                 max_tokens=1000,
-                temperature=0.45,
             )
 
         answer = response.choices[0].message.content
