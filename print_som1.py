@@ -11,7 +11,7 @@ import numpy as np
 import random
 from PIL import Image, ImageDraw, ImageFont
 from shapely.geometry import box
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="sk-xxxxxxxx")
 
 experiment_name = 'GPT4V-WATER'
 path_ref = None
