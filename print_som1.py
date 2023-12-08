@@ -13,7 +13,7 @@ from PIL import Image, ImageDraw, ImageFont
 from shapely.geometry import box
 client = OpenAI(api_key="sk-xxxxxxxx")   ### enter your OpenAI API key here
 
-experiment_name = 'GPT4V-WATER'
+experiment_name = 'GPT4V-GRID'  ###Replace with desired experiment name
 path_ref = None
 gt_boxes = [
 [152, 704, 932, 828],
