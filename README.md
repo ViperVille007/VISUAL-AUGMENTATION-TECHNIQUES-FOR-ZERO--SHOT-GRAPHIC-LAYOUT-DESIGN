@@ -1,4 +1,4 @@
-# VISUAL-AUGMENTATION-TECHNIQUES-FOR-ZERO--SHOT-GRAPHIC-LAYOUT-DESIGN
+# VISUAL-PROMPTING-TECHNIQUES-FOR-ZERO--SHOT-GRAPHIC-LAYOUT-DESIGN
 
 To run the experiments of your choice, put your OpenAI API Key in line number 14 and make changes to line number 16:  
 `experiment_name = 'exp_name'`
